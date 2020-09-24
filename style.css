@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(129, 42, 1);
+}
+
+div {
+    height: 33.3vh;
+}
+
+#fahrenheit {
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+div input[type=number] {
+    height: 100%;
+    width: 100%;
+    background: rgb(6, 4, 22);
+    font-size: 80px;
+    text-align: center;
+    border: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+::-webkit-input-placeholder {
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+::-moz-placeholder {
+    font-size: 80px;
+    font-family: 'Josefin Sans', sans-serif;
+}
